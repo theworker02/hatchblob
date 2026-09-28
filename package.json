@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hatchblob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hatch CSV/TSV blob tables for quick inspection and cleanup.",
+  "bin": {
+    "hatchblob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hatchblob.git"
+  },
+  "homepage": "https://theworker02.github.io/hatchblob/",
+  "keywords": [
+    "hatch",
+    "blob",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
